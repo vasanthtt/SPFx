@@ -1,6 +1,5 @@
 ## SPFx using react-adal package
-
-This is where you include your WebPart documentation.
+SPfx webpart sample accessing secured custom and graph API using react-adal (https://www.npmjs.com/package/react-adal)
 
 ### Building the code
 
