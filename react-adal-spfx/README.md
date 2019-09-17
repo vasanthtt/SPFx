@@ -1,5 +1,5 @@
 ## SPFx using react-adal package
-SPfx webpart sample accessing secured custom and graph API using react-adal (https://www.npmjs.com/package/react-adal)
+SPFx webpart sample accessing secured custom and graph API using react-adal (https://www.npmjs.com/package/react-adal)
 
 ### Building the code
 
