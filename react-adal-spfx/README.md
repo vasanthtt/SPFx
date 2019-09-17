@@ -1,4 +1,4 @@
-## react-adal-spfx
+## SPFX using react-adal package
 
 This is where you include your WebPart documentation.
 
