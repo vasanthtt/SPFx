@@ -19,7 +19,9 @@ This package produces the following:
 
 ### Deploy the code
 
+```bash
 gulp clean
 gulp build
 gulp bundle --ship
 gulp package-solution --ship
+```
