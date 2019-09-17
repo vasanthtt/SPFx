@@ -1,4 +1,4 @@
-## SPFX using react-adal package
+## SPFx using react-adal package
 
 This is where you include your WebPart documentation.
 
@@ -8,19 +8,18 @@ This is where you include your WebPart documentation.
 git clone the repo
 npm i
 npm i -g gulp
-gulp
+gulp serve
 ```
 
 This package produces the following:
 
 * lib/* - intermediate-stage commonjs build artifacts
 * dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
+* sharepoint/* - all resources which should be uploaded to SharePoint Apps under tenant or sitecollection.
 
-### Build options
+### Deploy the code
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+gulp clean
+gulp build
+gulp bundle --ship
+gulp package-solution --ship
