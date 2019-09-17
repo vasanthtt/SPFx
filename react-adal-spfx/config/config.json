@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "api-using-react-adal-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/apiUsingReactAdal/ApiUsingReactAdalWebPart.js",
+          "manifest": "./src/webparts/apiUsingReactAdal/ApiUsingReactAdalWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ApiUsingReactAdalWebPartStrings": "lib/webparts/apiUsingReactAdal/loc/{locale}.js"
+  }
+}

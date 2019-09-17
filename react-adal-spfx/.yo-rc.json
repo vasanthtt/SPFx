@@ -1,0 +1,25 @@
+{
+  "@pnp/generator-spfx": {
+    "framework": "react",
+    "pnpFramework": "reactjs.plus",
+    "pnp-libraries": [
+      "rush@3.5"
+    ],
+    "pnp-ci": [],
+    "pnp-vetting": [],
+    "spfxenv": "spo",
+    "pnp-testing": []
+  },
+  "@microsoft/generator-sharepoint": {
+    "environment": "spo",
+    "framework": "react",
+    "isCreatingSolution": true,
+    "whichFolder": "subdir",
+    "version": "1.9.1",
+    "libraryName": "react-adal-spfx",
+    "libraryId": "937cd012-3955-43ff-abee-d550ba978a3b",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
