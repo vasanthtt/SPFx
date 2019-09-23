@@ -28,7 +28,7 @@ export default class ApiUsingReactAdal extends React.Component<IApiUsingReactAda
   private _getCurrentUser() {
     try {
       //this.webapi.GetCampusWebAPI(APISource.TestAPI, "GetMe")
-      adalApiFetch(adalConfig.clientId, "https://campusfn.azurewebsites.net/api/GetMe", null)
+      adalApiFetch(adalConfig.clientId, "https://fn.azurewebsites.net/api/GetMe", null)
         .then(r => r.text())
         .then(r => {
           this.setState({
@@ -49,16 +49,6 @@ export default class ApiUsingReactAdal extends React.Component<IApiUsingReactAda
             graphResponse: r.displayName
           });
         });
-      // this.webapi.GetCampusWebAPI(APISource.MSGraph, "v1.0/me")
-      //   .then((data: any): void => {
-      //     this.setState({
-      //       graphResponse: data.displayName
-      //     });
-      //   }, (error: any): void => {
-      //     this.setState({
-      //       error: error
-      //     });
-      //   });
     }
     catch (e) {
       console.error(e);
