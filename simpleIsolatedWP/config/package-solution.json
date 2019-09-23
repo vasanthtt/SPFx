@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "simple-isolated-wp-client-side-solution",
+    "id": "8c4b36b9-eca6-4040-b05f-01d2b870288b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
+      },
+      {
+        "resource": "Windows Azure Active Directory",
+        "scope": "User.Read"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/simple-isolated-wp.sppkg"
+  }
+}
