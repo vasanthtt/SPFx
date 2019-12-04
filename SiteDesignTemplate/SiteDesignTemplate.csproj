@@ -48,8 +48,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SiteDesignTemplate\privatechannelsitetemplate.xml" />
     <None Include="App.config" />
     <None Include="SiteDesignTemplate\DemoSiteDesign.json" />
+    <Content Include="SiteDesignTemplate\demositetemplate.xml" />
     <Content Include="SiteDesignTemplate\PnPSiteTemplate.xml">
       <SubType>Designer</SubType>
     </Content>

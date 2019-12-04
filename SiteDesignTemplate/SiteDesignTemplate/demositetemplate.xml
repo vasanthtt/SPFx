@@ -2,7 +2,7 @@
 <pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2019/03/ProvisioningSchema">
   <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.11.1907.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
   <pnp:Templates ID="CONTAINER-TEMPLATE-E8125E62F0DA458EB2F1D4602623C580">
-    <pnp:ProvisioningTemplate ID="TEMPLATE-E8125E62F0DA458EB2F1D4602623C580" Version="1" BaseSiteTemplate="TEAMCHANNEL#0" Scope="RootSite">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-E8125E62F0DA458EB2F1D4602623C580" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
       <pnp:PropertyBagEntries>
         <pnp:PropertyBagEntry Key="WebTemplateExtensionId" Value="49b6dc49-27d6-485d-8f82-e70db2c3c523" Overwrite="false" />
       </pnp:PropertyBagEntries>
