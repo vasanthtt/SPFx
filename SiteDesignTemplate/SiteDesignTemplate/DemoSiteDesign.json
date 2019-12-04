@@ -1,0 +1,35 @@
+{
+  "$schema": "schema.json",
+  "actions": [
+    {
+      "verb": "addPrincipalToSPGroup",
+      "principal": "campus-teams@anibapatdev.onmicrosoft.com",
+      "group": "Owners"
+    },
+    {
+      "verb": "addPrincipalToSPGroup",
+      "principal": "vasanthtt@anibapatdev.onmicrosoft.com",
+      "group": "Owners"
+    },
+    {
+      "verb": "installSolution",
+      "id": "1858a76d-b4a7-4995-afa2-53239c066e4c"
+    },
+    //{
+    //  "verb": "applyTheme",
+    //  "themeName": "DarkCyan"
+    //},
+    {
+      "verb": "createSPList",
+      "listName": "SEE List",
+      "templateType": 100,
+      "subactions": [
+        {
+          "verb": "setDescription",
+          "description": "List of SEE Project"
+        }
+      ]
+    }
+  ],
+  "version": 2
+}

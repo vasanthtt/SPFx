@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2019/03/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.11.1907.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-E8125E62F0DA458EB2F1D4602623C580">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-E8125E62F0DA458EB2F1D4602623C580" Version="1" BaseSiteTemplate="TEAMCHANNEL#0" Scope="RootSite">
+      <pnp:PropertyBagEntries>
+        <pnp:PropertyBagEntry Key="WebTemplateExtensionId" Value="49b6dc49-27d6-485d-8f82-e70db2c3c523" Overwrite="false" />
+      </pnp:PropertyBagEntries>
+      <pnp:Lists>
+        <pnp:ListInstance Title="SEE Site Information" Description="This List is used for maintaining Project Site Information Details" DocumentTemplate="" TemplateType="100" Url="Lists/Project Site Information" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableFolderCreation="false">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+            <pnp:ContentTypeBinding ContentTypeID="0x0120" />
+          </pnp:ContentTypeBindings>
+        </pnp:ListInstance>
+      </pnp:Lists>
+      <pnp:ClientSidePages>
+        <pnp:ClientSidePage PageName="Home.aspx" PromoteAsNewsArticle="false" Overwrite="true" Layout="Home" EnableComments="false" Title="Home">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn" BackgroundEmphasis="Neutral">
+              <pnp:Controls>
+                <pnp:CanvasControl
+                  WebPartType="Image"
+                  CustomWebPartName="..."
+                  JsonControlData="{}"
+                  ControlId="0eaba53f-55d8-44b5-9f7c-61301c7f1e0e"
+                  Order="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Key1" Value="{token}" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>
+            <pnp:Section Order="2" Type="OneColumn">
+              <pnp:Controls>
+                <pnp:CanvasControl WebPartType="Custom" JsonControlData="{&quot;id&quot;: &quot;d119bae1-43cc-4d3a-8068-4b922fbb5192&quot;, &quot;instanceId&quot;: &quot;b3179c46-a34e-4c36-bde8-6f37be29ce36&quot;, &quot;title&quot;: &quot;aadPOC&quot;, &quot;description&quot;: &quot;aadPOC description&quot;, &quot;dataVersion&quot;: &quot;1.0&quot;, &quot;properties&quot;: {&quot;description&quot;:&quot;aadPOC&quot;}, &quot;serverProcessedContent&quot;: {}, &quot;dynamicDataPaths&quot;: {}, &quot;dynamicDataValues&quot;: {}}" ControlId="d119bae1-43cc-4d3a-8068-4b922fbb5192" Order="1" Column="1" />
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Default" />
+        </pnp:ClientSidePage>
+      </pnp:ClientSidePages>
+      <pnp:Features>
+        <pnp:WebFeatures>
+          <pnp:Feature ID="780ac353-eaf8-4ac2-8c47-536d93c03fd6" />
+        </pnp:WebFeatures>
+      </pnp:Features>
+      <pnp:Header Layout="Standard" />
+      <pnp:Navigation>
+        <pnp:CurrentNavigation NavigationType="Structural">
+          <pnp:StructuralNavigation RemoveExistingNodes="true">
+            <pnp:NavigationNode Title="Home" IsExternal="true" Url="{site}" />
+            <pnp:NavigationNode Title="Google" IsExternal="true" Url="https://google.com" />
+            <pnp:NavigationNode Title="Bing" IsExternal="true" Url="https://bing.com" />
+            <pnp:NavigationNode Title="SEE Documents" IsExternal="true" Url="{site}/Lists/SEE%20List/AllItems.aspx" />
+            <pnp:NavigationNode Title="Documents" IsExternal="true" Url="{site}/Shared Documents/Forms/AllItems.aspx" />
+            <pnp:NavigationNode Title="TestDuplicate" IsExternal="true" Url="{site}/Shared Documents/Forms/AllItems.aspx" />
+          </pnp:StructuralNavigation>
+        </pnp:CurrentNavigation>
+      </pnp:Navigation>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>

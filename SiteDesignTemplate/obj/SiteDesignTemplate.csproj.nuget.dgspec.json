@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHub\\SPFx\\SiteDesignTemplate\\SiteDesignTemplate.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub\\SPFx\\SiteDesignTemplate\\SiteDesignTemplate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\SPFx\\SiteDesignTemplate\\SiteDesignTemplate.csproj",
+        "projectName": "SiteDesignTemplate",
+        "projectPath": "D:\\GitHub\\SPFx\\SiteDesignTemplate\\SiteDesignTemplate.csproj",
+        "packagesPath": "C:\\Users\\v-vatt\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\SPFx\\SiteDesignTemplate\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\v-vatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "SharePointPnPCoreOnline": {
+              "target": "Package",
+              "version": "[3.16.1912, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

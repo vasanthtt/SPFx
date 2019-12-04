@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2018/07/ProvisioningSchema">
+  <pnp:Preferences Generator="OfficeDevPnP.Core, Version=3.8.1904.0, Culture=neutral, PublicKeyToken=5e633289e95c321a" />
+  <pnp:Templates ID="CONTAINER-TEMPLATE-CCDAF04F0AE8459198EFED1D9AF7BA62">
+    <pnp:ProvisioningTemplate ID="TEMPLATE-CCDAF04F0AE8459198EFED1D9AF7BA62" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">
+      <pnp:Lists>
+        <pnp:ListInstance Title="Project Site Information" Description="This List is used for maintaining Project Site Information Details" DocumentTemplate="" TemplateType="100" Url="Lists/Project Site Information" MinorVersionLimit="0" MaxVersionLimit="0" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" EnableFolderCreation="false">
+          <pnp:ContentTypeBindings>
+            <pnp:ContentTypeBinding ContentTypeID="0x01" Default="true" />
+          </pnp:ContentTypeBindings>
+        </pnp:ListInstance>
+      </pnp:Lists>
+      <pnp:ClientSidePages>
+        <pnp:ClientSidePage PageName="Home.aspx" PromoteAsNewsArticle="false" Overwrite="true" Layout="Home" EnableComments="false" Title="Home">
+          <pnp:Sections>
+            <pnp:Section Order="1" Type="OneColumn" BackgroundEmphasis="Neutral">
+              <pnp:Controls>
+                <pnp:CanvasControl
+                  WebPartType="Image"
+                  CustomWebPartName="..."
+                  JsonControlData="{}"
+                  ControlId="0eaba53f-55d8-44b5-9f7c-61301c7f1e0e"
+                  Order="1">
+                  <pnp:CanvasControlProperties>
+                    <pnp:CanvasControlProperty Key="Key1" Value="{token}" />
+                  </pnp:CanvasControlProperties>
+                </pnp:CanvasControl>
+              </pnp:Controls>
+            </pnp:Section>
+          </pnp:Sections>
+          <pnp:Header Type="Default" />
+        </pnp:ClientSidePage>
+   </pnp:ClientSidePages>
+      <pnp:Navigation>
+        <pnp:CurrentNavigation NavigationType="Structural">
+          <pnp:StructuralNavigation RemoveExistingNodes="true">
+            <pnp:NavigationNode Title="Home" IsExternal="true" Url="{site}" />
+            <pnp:NavigationNode Title="Google" IsExternal="false" Url="https://google.com" />
+            <pnp:NavigationNode Title="Bing" IsExternal="true" Url="https://bing.com" />
+            <pnp:NavigationNode Title="SEE Documents" IsExternal="true" Url="{site}/Lists/SEE%20List/AllItems.aspx" />
+            <pnp:NavigationNode Title="Documents" IsExternal="true" Url="{site}/Shared Documents/Forms/AllItems.aspx" />
+          </pnp:StructuralNavigation>
+        </pnp:CurrentNavigation>
+      </pnp:Navigation>
+    </pnp:ProvisioningTemplate>
+  </pnp:Templates>
+</pnp:Provisioning>
